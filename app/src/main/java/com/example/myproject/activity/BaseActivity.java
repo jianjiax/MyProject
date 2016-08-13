@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.example.myproject.callback.CustomCallBackManager;
 import com.example.myproject.helper.ToolBarHelper;
 
 /**
@@ -26,7 +27,6 @@ public class BaseActivity extends AppCompatActivity {
         toolbar = mToolBarHelper.getToolBar();
 
         setContentView(mToolBarHelper.getContentView()); /*把 toolbar 设置到Activity 中*/
-
 
         setSupportActionBar(toolbar); /*自定义的一些操作*/
         onCreateCustomToolBar(toolbar);
