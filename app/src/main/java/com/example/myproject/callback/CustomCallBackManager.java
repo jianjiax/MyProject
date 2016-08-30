@@ -1,6 +1,7 @@
 package com.example.myproject.callback;
 
 /**
+ * 回调管理
  * Created by Kain on 2016/8/13.
  */
 public class CustomCallBackManager {

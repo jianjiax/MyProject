@@ -17,6 +17,7 @@ public class TestAActivity extends BaseActivity {
         findViewById(R.id.bt1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // 在bactivity回调
                 CustomCallBackManager.getInstance().getCallBack().success("axiba");
             }
         });

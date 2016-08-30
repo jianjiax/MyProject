@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myproject">
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,6 +19,8 @@
 
         <activity android:name=".activity.TestAActivity" />
         <activity android:name=".activity.TestBActivity" />
+        <activity android:name=".activity.MaterDesignActivity" />
+        <activity android:name=".activity.PopActivity" />
     </application>
 
 </manifest>
