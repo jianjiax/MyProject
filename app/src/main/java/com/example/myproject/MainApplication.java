@@ -11,6 +11,9 @@ public class MainApplication extends Application {
     private static MainApplication mInstance;
 
     public static MainApplication getInstance() {
+        if(mInstance == null){
+            mInstance = new MainApplication();
+        }
         return mInstance;
     }
 

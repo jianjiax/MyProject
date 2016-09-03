@@ -20,6 +20,17 @@
         android:layout_height="wrap_content"
         android:text="pop test"/>
 
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/request_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="request test"/>
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/request1_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="request1 test"/>
+
     <com.gc.materialdesign.views.ButtonIcon
         android:id="@+id/materdesign_bt"
         android:layout_width="wrap_content"
